@@ -1,0 +1,14 @@
+.pageANIMALS {
+  background: grey;
+}
+
+.pageANIMALS img {
+  float: left;
+}
+.pageANIMALS h1 {
+  color: orangered;
+}
+
+.page {
+  background: #C0F3FC
+}
