@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Owners Requiring Assistance",
+    "count":719,
+    "fill":"#8884d8"
+  },
+  {
+    "name":"Owners with FVL Over $25,000",
+    "count":217,
+    "fill":"#8dd1e1"
+  },
+  {
+    "name":"Owners with FVL Level Severe",
+    "count":170,
+    "fill":"#a4de6c"
+  }
+]

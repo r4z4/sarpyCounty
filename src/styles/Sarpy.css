@@ -1,0 +1,55 @@
+.page	{
+	margin: auto;
+	width: 1100px;
+	border: 1px solid teal;
+	height: 1100px;
+}
+h1	{
+	color: teal;
+	text-align: center;
+	font-size: 200%;
+}
+form	{
+	margin: auto;
+	text-align: right;
+	padding-right: 10px;
+}
+
+form label	{
+	color: teal;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.jsonTable	{
+	column-count: 4;
+	height: 500px;
+	overflow: auto;
+}
+.testCharts	{
+	margin-top: 50px;
+	padding: 10px;
+	height: 400px;
+	display: block;
+}
+.display	{
+	/*border: 1px solid red;*/
+	margin: auto;
+	width: auto;
+	height: 600px;
+display: block;
+}
+.testCharts h2	{
+	text-align: center;
+	color: teal;
+	font-size: 150%;
+}
+.display h3	{
+	text-align: center;
+	color: teal;
+	font-size: 150%;
+}
+.optionsPane	{
+	float: left;
+
+}
+

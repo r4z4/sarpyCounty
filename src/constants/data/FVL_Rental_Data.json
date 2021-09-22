@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Rentals Requiring Assistance",
+    "count":263,
+    "fill":"#8884d8"
+  },
+  {
+    "name":"Rentals with FVL Over $5,000",
+    "count":139,
+    "fill":"#8dd1e1"
+  },
+  {
+    "name":"Rentals with FVL Level Severe",
+    "count":89,
+    "fill":"#a4de6c"
+  }
+]

@@ -10,11 +10,45 @@ import Sarpy_Rental_Vacancy_Ranges from './data/Sarpy_Rental_Vacancy_Ranges.json
 import FVL_Owner_Data from './data/FVL_Owner_Data.json';
 import FVL_Rental_Data from './data/FVL_Rental_Data.json';
 import FVL_County_Data from './data/FVL_County_Data.json';
-import UnitsLost from './data/UnitsLost.json';
-//import SankeyData from './data/SankeyData.json';
 
 const dataSets = ['Summary Data', 'Total Cases', 'Ineligible Cases', 'Cases By Type', 'Drug Cases', 'IRO Distribution', 'Insurer Distribution', 'Air Ambulance']
 const sarpyDataSets = ['Summary Data', 'Population', 'FEMA Verified Loss', 'Housing Land Use Projections', 'Units Lost', 'Housing Demand', 'Historical Rental Vacancy Rate', 'HPI']
+
+const unitsLostData = [
+  {
+    "name":"Total Units Lost",
+    "count":399,
+    "fill":"#8884d8"
+  },
+  {
+    "name":"Low-to-Mid Income",
+    "count":340,
+    "fill":"#45716d"
+  },
+  {
+    "name":"Mobile Homes",
+    "count":200,
+    "fill":"#8ccc02"
+  }
+]
+
+const sankeyData = {
+  "nodes": [
+    {"name": "Total Housing Units"},
+    {"name": "Owner Units"},
+    {"name": "Rental Units"},
+    {"name": "Workforce"},
+    {"name": "Low-Income Owner"},
+    {"name": "Low-Income Rental"}
+  ],
+  links: [
+    { source: 0, target: 1, value: 3618 },
+    { source: 0, target: 2, value: 1961 },
+    { source: 0, target: 3, value: 2900 },
+    { source: 1, target: 4, value: 187 },
+    { source: 2, target: 5, value: 278 },
+  ]
+};
 
 const radialStyle = {
   top: '50%',
@@ -49,6 +83,7 @@ const Image = ( {src, className, height, width, maxWidth, maxHeight, alt }) =>
   alt= { alt }
   />
 )
+
 
 const TextArea = ({ fullName, name, id, rows, cols, value, onChangeFunction, err }) =>
 (
@@ -130,7 +165,8 @@ export {
   FVL_Owner_Data,
   FVL_Rental_Data,
   FVL_County_Data,
-  UnitsLost,
-  //SankeyData,
+  unitsLostData,
+  sankeyData,
   Sarpy_Rental_Vacancy_Ranges,
+  nebraskaZips,
 };

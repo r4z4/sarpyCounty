@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Total Units Lost",
+    "count":399,
+    "fill":"#8884d8"
+  },
+  {
+    "name":"Low-to-Mid Income",
+    "count":340,
+    "fill":"#45716d"
+  },
+  {
+    "name":"Mobile Homes",
+    "count":200,
+    "fill":"#8ccc02"
+  }
+]

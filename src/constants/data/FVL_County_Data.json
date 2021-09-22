@@ -1,0 +1,12 @@
+[
+  {
+    "name":"Severe Cases - All 4 Counties",
+    "count":316,
+    "fill":"#90175d"
+  },
+  {
+    "name":"Severe Cases - Sarpy County",
+    "count":259,
+    "fill":"#47cb00"
+  }
+]

@@ -1,0 +1,925 @@
+[
+{
+  "Patient":
+[
+  {
+    "PatientID": "100",
+    "PatientFName": "Jim",
+    "PatientLName": "Smith",
+    "PatientDOB": "1958-02-10",
+    "PatientAddress1": "2244 South 13th St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68106"
+  },
+  {
+    "PatientID": "101",
+    "PatientFName": "Timmy",
+    "PatientLName": "Drake",
+    "PatientDOB": "1966-06-11",
+    "PatientAddress1": "PO Box 44",
+    "PatientAddress2": "null",
+    "PatientZip": "68850"
+  },
+  {
+    "PatientID": "102",
+    "PatientFName": "Connie",
+    "PatientLName": "June",
+    "PatientDOB": "1989-01-15",
+    "PatientAddress1": "888 South 17th St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68506"
+  },
+  {
+    "PatientID": "103",
+    "PatientFName": "Ray",
+    "PatientLName": "Bulger",
+    "PatientDOB": "1999-04-10",
+    "PatientAddress1": "1414 18th St.",
+    "PatientAddress2": "null",
+    "PatientZip": "50308"
+  },
+  {
+    "PatientID": "104",
+    "PatientFName": "Louise",
+    "PatientLName": "Berg",
+    "PatientDOB": "1977-07-19",
+    "PatientAddress1": "189 North 199th St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68186"
+  },
+  {
+    "PatientID": "105",
+    "PatientFName": "John",
+    "PatientLName": "Queen",
+    "PatientDOB": "1945-09-03",
+    "PatientAddress1": "2558 North 3rd St.",
+    "PatientAddress2": "Apt. #44",
+    "PatientZip": "68901"
+  },
+  {
+    "PatientID": "106",
+    "PatientFName": "Mike",
+    "PatientLName": "Ryanes",
+    "PatientDOB": "1988-01-14",
+    "PatientAddress1": "101 17th Ave.",
+    "PatientAddress2": "null",
+    "PatientZip": "68132"
+  },
+  {
+    "PatientID": "107",
+    "PatientFName": "Kevin",
+    "PatientLName": "Jacobsen",
+    "PatientDOB": "1994-05-16",
+    "PatientAddress1": "2332 South 139th St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68144"
+  },
+  {
+    "PatientID": "108",
+    "PatientFName": "Rob",
+    "PatientLName": "Smallzanski",
+    "PatientDOB": "2009-01-19",
+    "PatientAddress1": "900 Western Ave.",
+    "PatientAddress2": "Apt. #3",
+    "PatientZip": "68132"
+  },
+  {
+    "PatientID": "109",
+    "PatientFName": "Ryan",
+    "PatientLName": "Kools",
+    "PatientDOB": "1977-04-16",
+    "PatientAddress1": "231 So. 67th Ave.",
+    "PatientAddress2": "null",
+    "PatientZip": "68114"
+  },
+  {
+    "PatientID": "110",
+    "PatientFName": "Torry",
+    "PatientLName": "Flanders",
+    "PatientDOB": "1988-08-02",
+    "PatientAddress1": "434 South 173rd St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68186"
+  },
+  {
+    "PatientID": "111",
+    "PatientFName": "Rob",
+    "PatientLName": "Jones",
+    "PatientDOB": "1998-07-07",
+    "PatientAddress1": "223 Bowling Ln.",
+    "PatientAddress2": "null",
+    "PatientZip": "68847"
+  },
+  {
+    "PatientID": "112",
+    "PatientFName": "Jason",
+    "PatientLName": "Lucas",
+    "PatientDOB": "1955-09-10",
+    "PatientAddress1": "909 N. Ashland Dr.",
+    "PatientAddress2": "null",
+    "PatientZip": "68640"
+  },
+  {
+    "PatientID": "113",
+    "PatientFName": "Lisa",
+    "PatientLName": "Robinson",
+    "PatientDOB": "1974-12-02",
+    "PatientAddress1": "2474 South 133rd St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68144"
+  },
+  {
+    "PatientID": "114",
+    "PatientFName": "Paul",
+    "PatientLName": "Barbs",
+    "PatientDOB": "1990-05-06",
+    "PatientAddress1": "20900 South 63rd St.",
+    "PatientAddress2": "null",
+    "PatientZip": "68132"
+  },
+  {
+    "PatientID": "115",
+    "PatientFName": "Larry",
+    "PatientLName": "Paul",
+    "PatientDOB": "1993-02-12",
+    "PatientAddress1": "901 Jensen Ave.",
+    "PatientAddress2": "null",
+    "PatientZip": "68850"
+  },
+  {
+    "PatientID": "116",
+    "PatientFName": "Kim",
+    "PatientLName": "Reynolds",
+    "PatientDOB": "1983-09-02",
+    "PatientAddress1": "1200 North Dolio Blvd.",
+    "PatientAddress2": "null",
+    "PatientZip": "50010"
+  }
+]
+},
+{
+  "Insurer":
+[
+  {
+    "InsurerID": "ins01",
+    "InsurerName": "Blue Cross Blue Shield of Nebraska",
+    "InsurerAddress1": "1919 Aksarben Dr.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "68180",
+    "InsurerContactFName": "Lisa",
+    "InsurerContactLName": "Maple",
+    "InsurerPhone": "402-333-5555",
+    "InsurerEmail": "bcbs@insurance.com"
+  },
+  {
+    "InsurerID": "ins02",
+    "InsurerName": "Golden Rule",
+    "InsurerAddress1": "7440 Woodland Dr.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "46278",
+    "InsurerContactFName": "Lee",
+    "InsurerContactLName": "Moose",
+    "InsurerPhone": "317-715-7644",
+    "InsurerEmail": "gr@insurance.com"
+  },
+  {
+    "InsurerID": "ins03",
+    "InsurerName": "Bright Health",
+    "InsurerAddress1": "P.O. Box 16275",
+    "InsurerAddress2": "null",
+    "InsurerZip": "19612",
+    "InsurerContactFName": "Tim",
+    "InsurerContactLName": "Howdy",
+    "InsurerPhone": "800-237-2767",
+    "InsurerEmail": "bh@insurance.com"
+  },
+  {
+    "InsurerID": "ins04",
+    "InsurerName": "Cigna",
+    "InsurerAddress1": "900 Cottage Grove Rd.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "06002",
+    "InsurerContactFName": "Jim",
+    "InsurerContactLName": "Howard",
+    "InsurerPhone": "855-626-0721",
+    "InsurerEmail": "cigna@insurance.com"
+  },
+  {
+    "InsurerID": "ins05",
+    "InsurerName": "Medica",
+    "InsurerAddress1": "401 Carlson Parkway",
+    "InsurerAddress2": "null",
+    "InsurerZip": "55305",
+    "InsurerContactFName": "Howard",
+    "InsurerContactLName": "Cosell",
+    "InsurerPhone": "800-952-3455",
+    "InsurerEmail": "medica@insurance.com"
+  },
+  {
+    "InsurerID": "ins06",
+    "InsurerName": "United Healthcare",
+    "InsurerAddress1": "P.O. Box 1459",
+    "InsurerAddress2": "null",
+    "InsurerZip": "55440",
+    "InsurerContactFName": "Kevin",
+    "InsurerContactLName": "Smith",
+    "InsurerPhone": "800-328-5979",
+    "InsurerEmail": "uhc@insurance.com"
+  },
+  {
+    "InsurerID": "ins07",
+    "InsurerName": "Aetna",
+    "InsurerAddress1": "151 Farmington Ave.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "06156",
+    "InsurerContactFName": "Rebecca",
+    "InsurerContactLName": "James",
+    "InsurerPhone": "800-872-3862",
+    "InsurerEmail": "aetna@insurance.com"
+  },
+  {
+    "InsurerID": "ins08",
+    "InsurerName": "Coventry Healthcare",
+    "InsurerAddress1": "6720-B Rockledge Drive",
+    "InsurerAddress2": "Suite 800",
+    "InsurerZip": "20817",
+    "InsurerContactFName": "Timmy",
+    "InsurerContactLName": "Green",
+    "InsurerPhone": "301-581-0600",
+    "InsurerEmail": "ch@insurance.com"
+  },
+  {
+    "InsurerID": "ins09",
+    "InsurerName": "Federated Insurance",
+    "InsurerAddress1": "121 East Park Square",
+    "InsurerAddress2": "null",
+    "InsurerZip": "55060",
+    "InsurerContactFName": "Cosmo",
+    "InsurerContactLName": "Kramer",
+    "InsurerPhone": "507-455-5200",
+    "InsurerEmail": "fi@insurance.com"
+  },
+  {
+    "InsurerID": "ins10",
+    "InsurerName": "Companion Life",
+    "InsurerAddress1": "PO Box 100102",
+    "InsurerAddress2": "null",
+    "InsurerZip": "29202",
+    "InsurerContactFName": "Lori",
+    "InsurerContactLName": "Smithers",
+    "InsurerPhone": "803-333-2233",
+    "InsurerEmail": "cl@insurance.com"
+  },
+  {
+    "InsurerID": "ins11",
+    "InsurerName": "Aspen American Insurance",
+    "InsurerAddress1": "175 Capital Blvd.",
+    "InsurerAddress2": "Suite 300",
+    "InsurerZip": "06067",
+    "InsurerContactFName": "Keith",
+    "InsurerContactLName": "Jones",
+    "InsurerPhone": "877-245-3510",
+    "InsurerEmail": "aai@insurance.com"
+  },
+  {
+    "InsurerID": "ins12",
+    "InsurerName": "National Health Insurance Company",
+    "InsurerAddress1": "2221 E. Lamar Blvd.",
+    "InsurerAddress2": "Suite 960",
+    "InsurerZip": "76006",
+    "InsurerContactFName": "Raymond",
+    "InsurerContactLName": "Barre",
+    "InsurerPhone": "800-237-1900",
+    "InsurerEmail": "nhic@insurance.com"
+  },
+  {
+    "InsurerID": "ins13",
+    "InsurerName": "Souther Guaranty Insurance Company",
+    "InsurerAddress1": "13600 A ICOT Blvd.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "33760",
+    "InsurerContactFName": "Stu",
+    "InsurerContactLName": "Gotz",
+    "InsurerPhone": "888-912-4767",
+    "InsurerEmail": "sgic@insurance.com"
+  },
+  {
+    "InsurerID": "ins14",
+    "InsurerName": "Meritain Health",
+    "InsurerAddress1": "300 Corporate Pkwy.",
+    "InsurerAddress2": "null",
+    "InsurerZip": "14226",
+    "InsurerContactFName": "Jason",
+    "InsurerContactLName": "Leisure",
+    "InsurerPhone": "888-324-5789",
+    "InsurerEmail": "mh@insurance.com"
+  },
+  {
+    "InsurerID": "ins15",
+    "InsurerName": "Independance American Insurance Company",
+    "InsurerAddress1": "485 Madison Ave.",
+    "InsurerAddress2": "14th Floor",
+    "InsurerZip": "10022",
+    "InsurerContactFName": "Ian",
+    "InsurerContactLName": "Reynolds",
+    "InsurerPhone": "212-355-4141",
+    "InsurerEmail": "iaic@insurance.com"
+  }
+]
+},
+{
+  "Provider":
+[
+  {
+    "ProviderID": "p001",
+    "ProviderName": "Neurology Consultants of Nebraska",
+    "ProviderAddress1": "4242 Farnam St.",
+    "ProviderAddress2": "Suite 500",
+    "ProviderZip": "68131",
+    "ProviderContactFName": "Alfons",
+    "ProviderContactLName": "McGillicuddy",
+    "ProviderPhone": "1-402-992-3993"
+  },
+  {
+    "ProviderID": "p002",
+    "ProviderName": "PRIA Healthcare",
+    "ProviderAddress1": "32 City Hall Ave.",
+    "ProviderAddress2": "null",
+    "ProviderZip": "06790",
+    "ProviderContactFName": "Robert",
+    "ProviderContactLName": "Williams",
+    "ProviderPhone": "1-402-332-3355"
+  },
+  {
+    "ProviderID": "p003",
+    "ProviderName": "Nebraska Advanced Radiology",
+    "ProviderAddress1": "117 N. 32nd Ave.",
+    "ProviderAddress2": "Suite 100",
+    "ProviderZip": "68131",
+    "ProviderContactFName": "Vincent",
+    "ProviderContactLName": "Gill",
+    "ProviderPhone": "1-402-902-4493"
+  },
+  {
+    "ProviderID": "p004",
+    "ProviderName": "Center of Dermatology, P.C.",
+    "ProviderAddress1": "10110 Nicholas St.",
+    "ProviderAddress2": "Suite 103",
+    "ProviderZip": "68114",
+    "ProviderContactFName": "Lucille",
+    "ProviderContactLName": "Ostero",
+    "ProviderPhone": "1-402-552-6643"
+  },
+  {
+    "ProviderID": "p005",
+    "ProviderName": "Capital Foot and Ankle",
+    "ProviderAddress1": "5055 A St.",
+    "ProviderAddress2": "Suite 400",
+    "ProviderZip": "68510",
+    "ProviderContactFName": "Jimmy",
+    "ProviderContactLName": "Stewart",
+    "ProviderPhone": "1-531-223-3453"
+  },
+  {
+    "ProviderID": "p006",
+    "ProviderName": "Health 360",
+    "ProviderAddress1": "2301 0 St.",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68510",
+    "ProviderContactFName": "Hugh",
+    "ProviderContactLName": "Jackson",
+    "ProviderPhone": "1-531-874-2522"
+  },
+  {
+    "ProviderID": "p007",
+    "ProviderName": "Chldrens Physicians",
+    "ProviderAddress1": "110 N. 175th St.",
+    "ProviderAddress2": "Suite 1000",
+    "ProviderZip": "68118",
+    "ProviderContactFName": "Jennifer",
+    "ProviderContactLName": "Lopez",
+    "ProviderPhone": "1-402-992-2323"
+  },
+  {
+    "ProviderID": "p008",
+    "ProviderName": "Boone County Medical Clinic",
+    "ProviderAddress1": "1019 South 8th St.",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68620",
+    "ProviderContactFName": "Rene",
+    "ProviderContactLName": "Descartes",
+    "ProviderPhone": "1-402-222-6644"
+  },
+  {
+    "ProviderID": "p009",
+    "ProviderName": "Fallbrook Family Health Center",
+    "ProviderAddress1": "755 Fallbrook Blvd.",
+    "ProviderAddress2": "Suite 100",
+    "ProviderZip": "68521",
+    "ProviderContactFName": "Keith",
+    "ProviderContactLName": "Slime",
+    "ProviderPhone": "1-402-333-4423"
+  },
+  {
+    "ProviderID": "p010",
+    "ProviderName": "Mayo Clinic",
+    "ProviderAddress1": "200 First Street SW",
+    "ProviderAddress2": "null",
+    "ProviderZip": "55905",
+    "ProviderContactFName": "Larry",
+    "ProviderContactLName": "June",
+    "ProviderPhone": "1-531-631-0033"
+  },
+  {
+    "ProviderID": "p011",
+    "ProviderName": "Childrens Hospital and Medical Center",
+    "ProviderAddress1": "8200 Dodge St.",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68114",
+    "ProviderContactFName": "Lucy",
+    "ProviderContactLName": "Smith",
+    "ProviderPhone": "1-402-434-3555"
+  },
+  {
+    "ProviderID": "p012",
+    "ProviderName": "Genoa Medical Facilities",
+    "ProviderAddress1": "P.O. Box 310",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68640",
+    "ProviderContactFName": "Gene",
+    "ProviderContactLName": "Parmesean",
+    "ProviderPhone": "1-402-666-3966"
+  },
+  {
+    "ProviderID": "p013",
+    "ProviderName": "Nebraska Medicine Heart and Vascular Center",
+    "ProviderAddress1": "989510 Nebraska Medical Center",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68198",
+    "ProviderContactFName": "Gob",
+    "ProviderContactLName": "Bluth",
+    "ProviderPhone": "1-402-776-7776"
+  },
+  {
+    "ProviderID": "p014",
+    "ProviderName": "CHI Health Kearney",
+    "ProviderAddress1": "3219 Central Ave.",
+    "ProviderAddress2": "Suite 110",
+    "ProviderZip": "68847",
+    "ProviderContactFName": "Michael",
+    "ProviderContactLName": "Bluth",
+    "ProviderPhone": "1-402-776-3785"
+  },
+  {
+    "ProviderID": "p015",
+    "ProviderName": "Lincoln Orthopaedic Center, P.C.",
+    "ProviderAddress1": "6900 A St.",
+    "ProviderAddress2": "Suite 100",
+    "ProviderZip": "68510",
+    "ProviderContactFName": "Tobias",
+    "ProviderContactLName": "Funke",
+    "ProviderPhone": "1-402-977-3955"
+  },
+  {
+    "ProviderID": "p016",
+    "ProviderName": "Gastroenterology Specialties",
+    "ProviderAddress1": "4545 R St.",
+    "ProviderAddress2": "null",
+    "ProviderZip": "68503",
+    "ProviderContactFName": "Stan",
+    "ProviderContactLName": "Sitwell",
+    "ProviderPhone": "1-402-955-3493"
+  }
+]
+},
+{
+  "IRO":
+[
+  {
+    "IROID": "iro01",
+    "IROName": "MCMC Services",
+    "IROAddress1": "1451 Rockville Pike",
+    "IROAddress2": "Suite 440",
+    "IROZip": "20852",
+    "IROContactFName": "Arbiter",
+    "IROContactLName": "McGillicuddy",
+    "IROEmail": "mcmc@iro.com",
+    "IROLicenseExpiration": "2022-09-09"
+  },
+  {
+    "IROID": "iro02",
+    "IROName": "Medical Consultants Network",
+    "IROAddress1": "1301 5th Ave.",
+    "IROAddress2": "Suite 2900",
+    "IROZip": "98101",
+    "IROContactFName": "Mike",
+    "IROContactLName": "Ryan",
+    "IROEmail": "mcn@iro.com",
+    "IROLicenseExpiration": "2022-06-29"
+  },
+  {
+    "IROID": "iro03",
+    "IROName": "H.H.C Group",
+    "IROAddress1": "438 N. Frederick Ave.",
+    "IROAddress2": "Suite 200A",
+    "IROZip": "20877",
+    "IROContactFName": "Juan",
+    "IROContactLName": "Wiener",
+    "IROEmail": "hhc@iro.com",
+    "IROLicenseExpiration": "2022-07-11"
+  },
+  {
+    "IROID": "iro04",
+    "IROName": "MRIoA",
+    "IROAddress1": "2875 S. Decker Lake Dr.",
+    "IROAddress2": "Suite 300",
+    "IROZip": "84119",
+    "IROContactFName": "Billy",
+    "IROContactLName": "Gil",
+    "IROEmail": "mrioa@iro.com",
+    "IROLicenseExpiration": "2022-06-25"
+  },
+  {
+    "IROID": "iro05",
+    "IROName": "MET Healthcare Solutions",
+    "IROAddress1": "2211 W. 34th St.",
+    "IROAddress2": "null",
+    "IROZip": "77018",
+    "IROContactFName": "Greg",
+    "IROContactLName": "Cote",
+    "IROEmail": "met@iro.com",
+    "IROLicenseExpiration": "2022-10-02"
+  },
+  {
+    "IROID": "iro06",
+    "IROName": "CoreVisory",
+    "IROAddress1": "4490 W. 12 Mile Rd.",
+    "IROAddress2": "null",
+    "IROZip": "48377",
+    "IROContactFName": "Chris",
+    "IROContactLName": "Cote",
+    "IROEmail": "cv@iro.com",
+    "IROLicenseExpiration": "2022-08-03"
+  },
+  {
+    "IROID": "iro07",
+    "IROName": "Network Medical Review",
+    "IROAddress1": "4960 E. State Street",
+    "IROAddress2": "null",
+    "IROZip": "61108",
+    "IROContactFName": "Roy",
+    "IROContactLName": "Bellamy",
+    "IROEmail": "nmr@iro.com",
+    "IROLicenseExpiration": "2023-09-03"
+  },
+  {
+    "IROID": "iro08",
+    "IROName": "ProPeer Resources",
+    "IROAddress1": "500 N. Marketplace Dr.",
+    "IROAddress2": "Suite 202",
+    "IROZip": "84014",
+    "IROContactFName": "Allison",
+    "IROContactLName": "Turner",
+    "IROEmail": "ppr@iro.com",
+    "IROLicenseExpiration": "2023-03-30"
+  },
+  {
+    "IROID": "iro09",
+    "IROName": "National Medical Reviews",
+    "IROAddress1": "607 Louis Drive",
+    "IROAddress2": "Suite C",
+    "IROZip": "18974",
+    "IROContactFName": "Mina",
+    "IROContactLName": "Kimes",
+    "IROEmail": "Natmr@iro.com",
+    "IROLicenseExpiration": "2021-12-30"
+  },
+  {
+    "IROID": "iro10",
+    "IROName": "Maximus Federal Services",
+    "IROAddress1": "3750 Monroe Ave.",
+    "IROAddress2": "Suite 705",
+    "IROZip": "14534",
+    "IROContactFName": "Willie",
+    "IROContactLName": "Thrower",
+    "IROEmail": "mfs@iro.com",
+    "IROLicenseExpiration": "2022-12-12"
+  },
+  {
+    "IROID": "iro11",
+    "IROName": "Advanced Medical Reviews",
+    "IROAddress1": "600 Corporate Pointe",
+    "IROAddress2": "Suite 300",
+    "IROZip": "90230",
+    "IROContactFName": "James",
+    "IROContactLName": "Cagney",
+    "IROEmail": "amr@iro.com",
+    "IROLicenseExpiration": "2022-11-24"
+  },
+  {
+    "IROID": "iro12",
+    "IROName": "Claims Eval",
+    "IROAddress1": "4980 Rocklin Road",
+    "IROAddress2": "null",
+    "IROZip": "95677",
+    "IROContactFName": "Tim",
+    "IROContactLName": "Jones",
+    "IROEmail": "ce@iro.com",
+    "IROLicenseExpiration": "2022-04-13"
+  },
+  {
+    "IROID": "iro13",
+    "IROName": "Dane Street",
+    "IROAddress1": "7111 Fariway Dr.",
+    "IROAddress2": "Suite 201",
+    "IROZip": "33418",
+    "IROContactFName": "Dan",
+    "IROContactLName": "LeBatard",
+    "IROEmail": "ds@iro.com",
+    "IROLicenseExpiration": "2023-01-22"
+  },
+  {
+    "IROID": "iro14",
+    "IROName": "EdiPhy Advisors",
+    "IROAddress1": "1500 Urban Center Dr.",
+    "IROAddress2": "Suite 325",
+    "IROZip": "35242",
+    "IROContactFName": "John",
+    "IROContactLName": "Tess",
+    "IROEmail": "epa@iro.com",
+    "IROLicenseExpiration": "2022-04-22"
+  },
+  {
+    "IROID": "iro15",
+    "IROName": "MES Peer Review Services",
+    "IROAddress1": "100 Morse St.",
+    "IROAddress2": "null",
+    "IROZip": "02062",
+    "IROContactFName": "Julie",
+    "IROContactLName": "Jones",
+    "IROEmail": "mes@iro.com",
+    "IROLicenseExpiration": "2022-09-03"
+  }
+]
+},
+{
+  "EligibleCases":
+[
+  {
+    "CaseID": "1",
+    "PatientID": "101",
+    "InsurerID": "ins01",
+    "IROID": "iro02",
+    "ProviderID": "p004",
+    "DenialReason": "Denial of CT Scan",
+    "Expedited": "1",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-11",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "750"
+  },
+  {
+    "CaseID": "2",
+    "PatientID": "111",
+    "InsurerID": "ins05",
+    "IROID": "iro11",
+    "ProviderID": "p001",
+    "DenialReason": "Denial of Lexapro",
+    "Expedited": "0",
+    "DateForwarded": "2021-03-10",
+    "EligibilityNotice": "2021-03-10",
+    "EligibleCorrespondence": "2021-03-10",
+    "InsurerNotified": "2021-03-10",
+    "DecisionDate": "2021-04-10",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-04-10",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "3",
+    "PatientID": "100",
+    "InsurerID": "ins12",
+    "IROID": "iro07",
+    "ProviderID": "p012",
+    "DenialReason": "Denial of Mastectomy",
+    "Expedited": "1",
+    "DateForwarded": "2021-04-10",
+    "EligibilityNotice": "2021-04-10",
+    "EligibleCorrespondence": "2021-04-10",
+    "InsurerNotified": "2021-04-10",
+    "DecisionDate": "2021-04-12",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-04-12",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "4",
+    "PatientID": "115",
+    "InsurerID": "ins01",
+    "IROID": "iro15",
+    "ProviderID": "p013",
+    "DenialReason": "Denial of Arterial Stent",
+    "Expedited": "1",
+    "DateForwarded": "2021-02-19",
+    "EligibilityNotice": "2021-02-11",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "550"
+  },
+  {
+    "CaseID": "5",
+    "PatientID": "113",
+    "InsurerID": "ins01",
+    "IROID": "iro02",
+    "ProviderID": "p002",
+    "DenialReason": "Denial of Humira",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-16",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "6",
+    "PatientID": "114",
+    "InsurerID": "ins01",
+    "IROID": "iro11",
+    "ProviderID": "p005",
+    "DenialReason": "Denial of Repatha",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-23",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "7",
+    "PatientID": "108",
+    "InsurerID": "ins01",
+    "IROID": "iro02",
+    "ProviderID": "p008",
+    "DenialReason": "Denial of MRI",
+    "Expedited": "1",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-03-02",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "8",
+    "PatientID": "109",
+    "InsurerID": "ins02",
+    "IROID": "iro09",
+    "ProviderID": "p008",
+    "DenialReason": "Denial of Lumbar Surgery",
+    "Expedited": "1",
+    "DateForwarded": "2021-03-13",
+    "EligibilityNotice": "2021-03-13",
+    "EligibleCorrespondence": "2021-03-13",
+    "InsurerNotified": "2021-03-13",
+    "DecisionDate": "2021-03-16",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-03-16",
+    "InvoiceAmount": "500"
+  },
+  {
+    "CaseID": "9",
+    "PatientID": "107",
+    "InsurerID": "ins14",
+    "IROID": "iro05",
+    "ProviderID": "p004",
+    "DenialReason": "Denial of Air Ambulance Transport",
+    "Expedited": "0",
+    "DateForwarded": "2021-04-01",
+    "EligibilityNotice": "2021-04-01",
+    "EligibleCorrespondence": "2021-04-01",
+    "InsurerNotified": "2021-04-01",
+    "DecisionDate": "null",
+    "IRODecision": "null",
+    "FileClosed": "null",
+    "InvoiceAmount": "null"
+  },
+  {
+    "CaseID": "10",
+    "PatientID": "105",
+    "InsurerID": "ins09",
+    "IROID": "iro01",
+    "ProviderID": "p010",
+    "DenialReason": "Denial of Repatha",
+    "Expedited": "0",
+    "DateForwarded": "2021-04-11",
+    "EligibilityNotice": "2021-04-11",
+    "EligibleCorrespondence": "2021-04-11",
+    "InsurerNotified": "2021-04-11",
+    "DecisionDate": "null",
+    "IRODecision": "null",
+    "FileClosed": "null",
+    "InvoiceAmount": "null"
+  },
+  {
+    "CaseID": "11",
+    "PatientID": "103",
+    "InsurerID": "ins01",
+    "IROID": "iro05",
+    "ProviderID": "p011",
+    "DenialReason": "Denial of PET Scan",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-03-09",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "12",
+    "PatientID": "110",
+    "InsurerID": "ins01",
+    "IROID": "iro07",
+    "ProviderID": "p007",
+    "DenialReason": "Denial of Discectomy",
+    "Expedited": "1",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-18",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "750"
+  },
+  {
+    "CaseID": "13",
+    "PatientID": "112",
+    "InsurerID": "ins03",
+    "IROID": "iro03",
+    "ProviderID": "p001",
+    "DenialReason": "Denial of ABA Therapy",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-16",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Upheld",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "14",
+    "PatientID": "102",
+    "InsurerID": "ins01",
+    "IROID": "iro02",
+    "ProviderID": "p002",
+    "DenialReason": "Denial of Sucraid",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-02-27",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  },
+  {
+    "CaseID": "15",
+    "PatientID": "106",
+    "InsurerID": "ins04",
+    "IROID": "iro01",
+    "ProviderID": "p004",
+    "DenialReason": "Denial of CT Scan",
+    "Expedited": "0",
+    "DateForwarded": "2021-02-10",
+    "EligibilityNotice": "2021-03-01",
+    "EligibleCorrespondence": "2021-02-11",
+    "InsurerNotified": "2021-02-11",
+    "DecisionDate": "2021-02-14",
+    "IRODecision": "Overturned",
+    "FileClosed": "2021-02-14",
+    "InvoiceAmount": "250"
+  }
+]
+}
+]

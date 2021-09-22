@@ -1,20 +1,26 @@
+// ExtRev Charts
 // Constants Index.js
 
-import React, { Component } from "react";
 import './index.css';
-import SarpyData from './data/SarpyData.json';
-import SarpyDataHousingDemo from './data/SarpyDataHousingDemo.json';
-import SarpyDataHousingDemoComp from './data/SarpyDataHousingDemoComp.json';
-import SarpyDataLandUse from './data/SarpyDataLandUse.json';
-import Sarpy_Rental_Vacancy_Ranges from './data/Sarpy_Rental_Vacancy_Ranges.json';
-import FVL_Owner_Data from './data/FVL_Owner_Data.json';
-import FVL_Rental_Data from './data/FVL_Rental_Data.json';
-import FVL_County_Data from './data/FVL_County_Data.json';
-import UnitsLost from './data/UnitsLost.json';
-//import SankeyData from './data/SankeyData.json';
+
+import AllData from './data/AllData.json';
+import IRO from './data/IRO.json';
+import Patient from './data/Patient.json';
+import Insurer from './data/Insurer.json';
+import Provider from './data/Provider.json';
+import EligibleCases from './data/EligibleCases.json';
+
 
 const dataSets = ['Summary Data', 'Total Cases', 'Ineligible Cases', 'Cases By Type', 'Drug Cases', 'IRO Distribution', 'Insurer Distribution', 'Air Ambulance']
-const sarpyDataSets = ['Summary Data', 'Population', 'FEMA Verified Loss', 'Housing Land Use Projections', 'Units Lost', 'Housing Demand', 'Historical Rental Vacancy Rate', 'HPI']
+const saFieldArray = ['serviceareaname', 'importdate', 'issuerid', 'serviceareaid']
+const brFieldArray = ['businessyear', 'statecode', 'issuerid', 'sourcename', 'productid']
+const paFieldArray = ['plantype', 'networkid', 'marketcoverage', 'metallevel']
+const ntwrkFieldArray = ['sourcename', 'importdate', 'networkname', 'networkid']
+const cwFieldArray = ['dentalplan', 'state', 'issueid_2020']
+const bencsFieldArray = ['businessyear', 'statecode', 'issuerid', 'planid']
+const rateFieldArray = ['businessyear', 'statecode']
+const sarpyDataSets = ['Summary Data', 'Population', 'FEMA Verified Loss', 'Housing Land Use Projections', 'Units Lost', 'Housing Demand', 'Historical Rental Vacancy Rate']
+
 
 const radialStyle = {
   top: '50%',
@@ -49,6 +55,7 @@ const Image = ( {src, className, height, width, maxWidth, maxHeight, alt }) =>
   alt= { alt }
   />
 )
+
 
 const TextArea = ({ fullName, name, id, rows, cols, value, onChangeFunction, err }) =>
 (
@@ -113,6 +120,19 @@ const StoryCheckbox = ({ label, name, checked, onChangeFunction }) =>
   </div>
 );
 
+const JSONTable = ({ list, listArray }) =>
+(!list.length) ? <div className="jsonTable">No JSON</div> :
+<div className="table">
+{list.map(item =>
+      <div key={item.PatientID}>
+        <span>
+            {item.PatientName}
+            {item[listArray[0]]} -- {item[listArray[1]]} -- {item[listArray[2]]} -- {item[listArray[3]]}
+        </span>
+      </div>
+    )}
+    </div>
+
 export { 
   InputAndError, 
   Checkbox,
@@ -122,15 +142,19 @@ export {
   Image, 
   dataSets,
   sarpyDataSets,
+  brFieldArray,
+  cwFieldArray,
+  saFieldArray,
+  ntwrkFieldArray,
+  bencsFieldArray,
+  rateFieldArray,
+  paFieldArray,
   radialStyle,
-  SarpyData,
-  SarpyDataHousingDemo,
-  SarpyDataHousingDemoComp,
-  SarpyDataLandUse,
-  FVL_Owner_Data,
-  FVL_Rental_Data,
-  FVL_County_Data,
-  UnitsLost,
-  //SankeyData,
-  Sarpy_Rental_Vacancy_Ranges,
+  AllData,
+  Insurer,
+  Patient,
+  Provider,
+  IRO,
+  EligibleCases,
+  JSONTable,
 };

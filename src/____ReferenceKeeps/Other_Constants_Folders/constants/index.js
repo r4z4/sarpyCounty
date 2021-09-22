@@ -1,20 +1,36 @@
+// ExtRev Charts
 // Constants Index.js
 
 import React, { Component } from "react";
 import './index.css';
+/*import usgdp from './data/USgdp.json';*/
+/*import uspop from './data/USpop.json';*/
+import extrev from './data/ExtRev.json';
+import extrevins from './data/ExtRevIns.json';
+import extreviro from './data/ExtRevIRO.json';
 import SarpyData from './data/SarpyData.json';
 import SarpyDataHousingDemo from './data/SarpyDataHousingDemo.json';
 import SarpyDataHousingDemoComp from './data/SarpyDataHousingDemoComp.json';
 import SarpyDataLandUse from './data/SarpyDataLandUse.json';
 import Sarpy_Rental_Vacancy_Ranges from './data/Sarpy_Rental_Vacancy_Ranges.json';
-import FVL_Owner_Data from './data/FVL_Owner_Data.json';
-import FVL_Rental_Data from './data/FVL_Rental_Data.json';
-import FVL_County_Data from './data/FVL_County_Data.json';
-import UnitsLost from './data/UnitsLost.json';
-//import SankeyData from './data/SankeyData.json';
+
+/*import pufbycounty from './data/cmsData/by_county.json';*/
+/*import pufbyzip from './data/cmsData/by_zip.json';*/
+import pufstatelevel from './data/cmsData/state_level.json';
+/*import pufstatemetallevel from './data/cmsData/state_metal_level.json';*/
+/*import defImg from './images/default.png';*/
 
 const dataSets = ['Summary Data', 'Total Cases', 'Ineligible Cases', 'Cases By Type', 'Drug Cases', 'IRO Distribution', 'Insurer Distribution', 'Air Ambulance']
-const sarpyDataSets = ['Summary Data', 'Population', 'FEMA Verified Loss', 'Housing Land Use Projections', 'Units Lost', 'Housing Demand', 'Historical Rental Vacancy Rate', 'HPI']
+const saFieldArray = ['serviceareaname', 'importdate', 'issuerid', 'serviceareaid']
+const brFieldArray = ['businessyear', 'statecode', 'issuerid', 'sourcename', 'productid']
+const paFieldArray = ['plantype', 'networkid', 'marketcoverage', 'metallevel']
+const ntwrkFieldArray = ['sourcename', 'importdate', 'networkname', 'networkid']
+const cwFieldArray = ['dentalplan', 'state', 'issueid_2020']
+const bencsFieldArray = ['businessyear', 'statecode', 'issuerid', 'planid']
+const rateFieldArray = ['businessyear', 'statecode']
+const sarpyDataSets = ['Summary Data', 'Population', 'FEMA Verified Loss', 'Housing Land Use Projections', 'Units Lost', 'Housing Demand', 'Historical Rental Vacancy Rate']
+
+
 
 const radialStyle = {
   top: '50%',
@@ -49,6 +65,7 @@ const Image = ( {src, className, height, width, maxWidth, maxHeight, alt }) =>
   alt= { alt }
   />
 )
+
 
 const TextArea = ({ fullName, name, id, rows, cols, value, onChangeFunction, err }) =>
 (
@@ -122,15 +139,21 @@ export {
   Image, 
   dataSets,
   sarpyDataSets,
+  brFieldArray,
+  cwFieldArray,
+  saFieldArray,
+  ntwrkFieldArray,
+  bencsFieldArray,
+  rateFieldArray,
+  paFieldArray,
   radialStyle,
+  extrev,
+  extrevins,
+  extreviro,
   SarpyData,
   SarpyDataHousingDemo,
   SarpyDataHousingDemoComp,
   SarpyDataLandUse,
-  FVL_Owner_Data,
-  FVL_Rental_Data,
-  FVL_County_Data,
-  UnitsLost,
-  //SankeyData,
   Sarpy_Rental_Vacancy_Ranges,
+  pufstatelevel,
 };
